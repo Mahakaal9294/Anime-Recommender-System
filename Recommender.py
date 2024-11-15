@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import ast 
 import pickle
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 def app():
 
